@@ -1,4 +1,4 @@
 # Programación-Orientada-A-Objetos
-Tareas y Proyectos de Programación Orientada a Objetos
+Tareas, Proyectos y Exámenes de Programación Orientada a Objetos
 
 **Lenguaje:** Java
