@@ -1,11 +1,20 @@
 # ==========================================
-# Archivos compilados de Java
+# .gitignore para el repositorio de Programación Orientada a Objetos
+# Java con Eclipse y Processing
+# Va en la raíz, junto a Tareas/, Examenes/ y Proyectos/
+# Los patrones sin "/" inicial aplican en todas las subcarpetas
+# ==========================================
+
+# ==========================================
+# Java: archivos compilados
 # ==========================================
 *.class
 *.jar
 *.war
 *.ear
-*.zip
+*.nar
+hs_err_pid*
+replay_pid*
 
 # ==========================================
 # Directorios de compilación
@@ -17,85 +26,75 @@ dist/
 out/
 
 # ==========================================
-# Maven
-# ==========================================
-dependency-reduced-pom.xml
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-.flattened-pom.xml
-
-# ==========================================
-# Gradle
-# ==========================================
-.gradle/
-gradle-app.setting
-!gradle-wrapper.jar
-.gradle
-**/build/
-
-# ==========================================
-# IDE - IntelliJ
-# ==========================================
-.idea/
-*.iml
-*.iws
-*.ipr
-out/
-
-# ==========================================
-# IDE - Eclipse
+# Eclipse
 # ==========================================
 .classpath
 .project
 .settings/
 .metadata/
-bin/
-tmp/
-*.bak
-*.swp
+.apt_generated/
+.apt_generated_tests/
+.factorypath
+.springBeans
+.recommenders/
+RemoteSystemsTempFiles/
+.externalToolBuilders/
+local.properties
+*.pydevproject
 
 # ==========================================
-# IDE - VS Code
+# Processing
 # ==========================================
-.vscode/
-*.code-workspace
+applet/
+application.linux*/
+application.windows*/
+application.macosx/
+android/
+web-export/
 
 # ==========================================
-# IDE - NetBeans
+# Maven / Gradle (por si algún proyecto los usa)
 # ==========================================
-nbproject/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+.gradle/
+gradle-app.setting
+
+# ==========================================
+# Archivos comprimidos
+# ==========================================
+*.zip
+*.rar
+*.7z
 
 # ==========================================
 # Archivos temporales
 # ==========================================
+tmp/
+*.tmp
+*.bak
 *.swp
 *.swo
 *~
-*.tmp
-*.bak
-*.dSYM/
 
 # ==========================================
 # Archivos del sistema
 # ==========================================
 .DS_Store
 Thumbs.db
+desktop.ini
 *.log
 
 # ==========================================
-# Otros
+# Datos locales y credenciales
 # ==========================================
-*.exe
-*.properties.local
 .env
-.classpath.local
+*.properties.local
 *.db
 *.sqlite
+*.dat
