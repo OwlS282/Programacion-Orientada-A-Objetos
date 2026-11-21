@@ -1,0 +1,61 @@
+# ==========================================
+# Processing - aplicaciones exportadas
+# (File > Export Application genera estas carpetas dentro del sketch)
+# ==========================================
+**/application.windows32/
+**/application.windows64/
+**/application.linux32/
+**/application.linux64/
+**/application.linux-arm64/
+**/application.linux-armv6hf/
+**/application.macosx/
+**/application.macos-aarch64/
+**/application.macos-x86_64/
+**/applet/
+**/source/
+
+# ==========================================
+# Processing - archivos compilados y temporales
+# ==========================================
+**/out/
+**/build/
+*.class
+*.tmp
+*.temp
+
+# ==========================================
+# Archivos comprimidos (entregas y exportaciones)
+# ==========================================
+*.zip
+
+# ==========================================
+# IDE - VS Code
+# ==========================================
+.vscode/
+*.code-workspace
+
+# ==========================================
+# IDE - IntelliJ
+# ==========================================
+.idea/
+*.iml
+
+# ==========================================
+# Archivos temporales y copias de respaldo
+# ==========================================
+*.swp
+*.swo
+*~
+*.bak
+
+# ==========================================
+# Archivos del sistema
+# ==========================================
+.DS_Store
+Thumbs.db
+*.log
+
+# ==========================================
+# Otros
+# ==========================================
+.env
